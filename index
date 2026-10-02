@@ -1586,7 +1586,7 @@ button {
   calling the Apps Script Web App's doPost(e) endpoint instead.
   Paste your deployed Web App URL below (it ends in /exec).
 ===================================================== */
-const APPS_SCRIPT_URL = 'PASTE_YOUR_WEB_APP_URL_HERE';
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwO0_DDxEsU2mSYtqGcYY_29jbC5gaA8lfD5fIDUNUs0QZAOiGBnripQIk7JzuB4VO5Rg/exec';
 
 (function () {
   if (window.google && window.google.script && window.google.script.run) return;
